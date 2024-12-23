@@ -1,0 +1,75 @@
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .left-panel {
+    width: 20%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+  }
+  
+  .avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .main-area {
+    width: 80%;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .inventory-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .inventory-table th,
+  .inventory-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .inventory-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .table-container {
+    max-height: 50vh;
+    overflow-y: auto;
+  }
+  
+  .form-container {
+    margin-top: 20px;
+  }
+  
+  .add-form {
+    margin: 15px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .toggle-button {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .toggle-button:hover {
+    background-color: #0056b3;
+  }
+  

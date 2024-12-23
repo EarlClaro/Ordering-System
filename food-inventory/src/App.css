@@ -1,0 +1,106 @@
+/* app.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  background-color: #4CAF50;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.auth-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-container .login-form,
+.auth-container .register-form {
+  width: 300px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.auth-container .register-link {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.auth-container .register-link a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.auth-container .register-link a:hover {
+  text-decoration: underline;
+}
+
+.dashboard-container {
+  display: flex;
+  padding: 20px;
+}
+
+.left-panel {
+  width: 250px;
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.left-panel .avatar-icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.main-area {
+  flex: 1;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-area h2 {
+  color: #333;
+}
+
+.inventory-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.inventory-table th, .inventory-table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
